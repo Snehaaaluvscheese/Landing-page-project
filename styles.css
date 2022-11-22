@@ -1,0 +1,267 @@
+body {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    flex: 1;
+  }
+  
+  
+  
+  .header {
+      display: flex;
+      align-items: center;
+      color: lightyellow;
+      background-color: darkorange;
+     
+         
+  }
+  
+  ul {
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      justify-content: flex-end;
+      margin-right: 15px;
+      align-items: flex-start;
+      
+      
+  }
+  
+  .logo {
+      margin-right: 650px;
+      margin-left:55px;
+      font-size: 34px;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .link-one,
+  .link-two,
+  .link-three {
+      margin-right: 20px; 
+  }
+  
+  a {
+      text-decoration: none;
+      color: lightyellow;
+      font-size: 18px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .yah {
+      display: flex;
+      flex: auto;
+      flex-direction: column;
+      margin-left: 55px;
+      margin-top: 50px;
+  }
+  
+  button {
+      max-width: fit-content;
+      margin-top: 2px;
+      padding: 8px 16px;
+      background-color:darkcyan;
+      border-color: white;
+      border-style: solid;
+      color: lightyellow;
+      border-radius: 15cm;
+      font-size: 17px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      
+  }
+      
+  .joy {
+     margin-bottom: 2px;
+     font-size: 40px; 
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     color: lightyellow;
+  }
+  
+  .joy2 {
+      margin-top:5px;
+      font-size: 17px;
+      margin-bottom:5px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      color: lightyellow;
+  }
+  
+  .happydog {
+      display: flex;
+      flex:auto;
+      max-height:10cm;
+      margin-left: 15px;
+  justify-content: flex-end;
+  margin-top: 75px;
+  margin-right: 40px;
+  padding-bottom: 40px;
+  
+  }
+  
+  .pls {
+      display: flex;
+      flex-direction: row;
+      background-color: darkorange;
+  }
+  
+  .tricks {
+     border: 2px;
+  border-color: lightyellow;
+  border-style: solid;
+  }
+  
+  .plan {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      margin-top: 40px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .woman {
+      display: flex;
+      flex:auto;
+      max-height:5cm;
+      max-width: 5cm;
+      margin-left: -2px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      border: 2px;
+  border-color:darkcyan;
+  border-style: solid;
+  border-radius: 20px;
+      }
+  
+      .man {
+          display: flex;
+      flex:auto;
+      max-height:5cm;
+      max-width: 5cm;
+      margin-left: 1px;
+      margin-right: 5px;
+      margin-bottom: 10px;
+      border: 2px;
+  border-color:darkcyan;
+  border-style: solid;
+  border-radius: 20px;
+      }
+  
+      .container {
+          display: flex;
+          justify-content: center;
+          gap: 52px;
+          margin-bottom: 60px;
+          margin-top:40px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+  
+        .info {
+          max-width: 200px;
+          
+        }
+  
+        
+        .outside {
+          display: flex;
+      flex:auto;
+      max-height:5cm;
+      max-width: 5cm;
+      margin-bottom: 10px;
+      border: 2px;
+  border-color:darkcyan;
+  border-style: solid;
+  border-radius: 20px;
+        }
+
+        .bday {
+            display: flex;
+      flex:auto;
+      max-height:5cm;
+      max-width: 5cm;
+      margin-bottom: 10px;
+      border: 2px;
+  border-color:darkcyan;
+  border-style: solid;
+  border-radius: 20px;
+
+        }
+  
+        .testimony {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          max-width: 960px;
+          margin-left:154px;
+          font-size: 27px;
+          margin-bottom: 50px;
+          
+        }
+  
+        .poodle {
+          display: flex;
+          margin-right: -430px;
+          margin-top: 5px;
+          font-size: 18px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+          
+        }
+  
+        .container2 {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          background-color: lightyellow;
+          padding-right: 150px;
+          padding-top: 50px;
+          padding-bottom:95px;
+        }
+  
+        h2,
+        .premium {
+          display: flex;
+          margin-left:70px;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: lightyellow;
+        }
+  
+        h2 {
+          margin-bottom: -10px;
+          
+          
+        }
+  
+        .sign-up {
+          display: flex;
+          align-self: flex-end;
+          margin-right: 150px;
+          margin-top: -90px;
+          
+          
+        }
+  
+        .copyright {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height: 76px;
+          margin-top: 130px;
+          background-color: darkorange;
+          font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+          color: lightyellow;
+          font-size: 20px;
+          
+        }
+  
+        .box {
+          display: flex;
+          background-color: darkcyan;
+          flex-direction: column;
+          margin-left: 150px;
+          margin-right: 100px;
+          margin-top: 100px;
+          padding-top: 25px;
+          padding-bottom: 25px;
+          border-radius: 20px;
+          
+        }
+  
